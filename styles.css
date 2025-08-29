@@ -1,0 +1,27 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+  background: #db9e9e;
+}
+
+button {
+  margin: 5px 5px 5px 0;
+  padding: 6px 10px;
+}
+
+#fruitInput {
+  margin-top: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+#result {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#list {
+  margin-top: 10px;
+}

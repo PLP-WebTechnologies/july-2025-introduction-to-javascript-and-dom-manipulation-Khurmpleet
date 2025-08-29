@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fruit Checker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="body">
+  <h1 id="intro">Fruit Checker</h1>
+  <p id="ptext">Type a fruit and check if it exists and add it if it doesn't exist.</p>
+
+
+  <!-- Input for adding a new fruit -->
+  <input id="fruitInput" type="text" placeholder="Type a fruit">
+
+  <!-- Buttons that call JavaScript functions -->
+  <button onclick="checkFruit()">Check Fruit</button>
+  <button onclick="showFruits()">Show Fruits</button>
+  <button onclick="addFruit()">Add Fruit</button>
+
+
+
+  <!-- Where results will show -->
+  <p id="result"></p>
+  <ul id="list"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
